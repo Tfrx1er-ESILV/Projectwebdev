@@ -1567,8 +1567,8 @@ document.querySelector("#submit").addEventListener("click", function writeToChat
   var discussionElt = document.querySelector(".discussion");
   var today = new Date();
   var time = today.getHours() + ":" + today.getMinutes();
-  discussionElt.innerHTML += '<p style="color:white;float:left;width=100%;">' + "<i>" + "at " + time + " | " + pseudo + " said :  " + "</i>" + message + "</p>";
-  discussionElt.innerHTML += '<p style="color:white;float:right;width=100%;">' + "<i>" + "at " + time + " | " + "Chat_bot" + " said :  " + "</i>" + "This is an automatic response" + "</p>";
+  discussionElt.innerHTML += '<p style="color:white;float:left;width=100%;">' + '<i style="color:grey">' + "at " + time + " | " + pseudo + " said :  " + "</i>" + message + "</p>";
+  discussionElt.innerHTML += '<p style="color:white;float:right;width=100%;">' + '<i style="color:grey">' + "at " + time + " | " + "Chat_bot" + " said :  " + "</i>" + "This is an automatic response" + "</p>";
 });
 },{"assert":"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/assert/assert.js"}],"../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
