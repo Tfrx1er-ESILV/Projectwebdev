@@ -1,0 +1,23 @@
+{
+  "name": "Projectwebdev",
+  "version": "1.0.0",
+  "description": "Projet de web dev sur notre projet Ping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tfrx1er-ESILV/Projectwebdev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tfrx1er-ESILV/Projectwebdev/issues"
+  },
+  "homepage": "https://github.com/Tfrx1er-ESILV/Projectwebdev#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

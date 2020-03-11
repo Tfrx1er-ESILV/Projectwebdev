@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/object-assign/index.js":[function(require,module,exports) {
+})({"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/object-assign/index.js":[function(require,module,exports) {
 /*
 object-assign
 (c) Sindre Sorhus
@@ -213,14 +213,14 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
   return to;
 };
-},{}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/assert/node_modules/util/support/isBufferBrowser.js":[function(require,module,exports) {
+},{}],"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/assert/node_modules/util/support/isBufferBrowser.js":[function(require,module,exports) {
 module.exports = function isBuffer(arg) {
   return arg && typeof arg === 'object'
     && typeof arg.copy === 'function'
     && typeof arg.fill === 'function'
     && typeof arg.readUInt8 === 'function';
 }
-},{}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/assert/node_modules/inherits/inherits_browser.js":[function(require,module,exports) {
+},{}],"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/assert/node_modules/inherits/inherits_browser.js":[function(require,module,exports) {
 if (typeof Object.create === 'function') {
   // implementation from standard node.js 'util' module
   module.exports = function inherits(ctor, superCtor) {
@@ -245,7 +245,7 @@ if (typeof Object.create === 'function') {
   }
 }
 
-},{}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/process/browser.js":[function(require,module,exports) {
+},{}],"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js":[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {}; // cached from whatever global is present so that test runners that stub it
@@ -454,7 +454,7 @@ process.chdir = function (dir) {
 process.umask = function () {
   return 0;
 };
-},{}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/assert/node_modules/util/util.js":[function(require,module,exports) {
+},{}],"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/assert/node_modules/util/util.js":[function(require,module,exports) {
 var global = arguments[3];
 var process = require("process");
 // Copyright Joyent, Inc. and other Node contributors.
@@ -1046,7 +1046,7 @@ exports._extend = function (origin, add) {
 function hasOwnProperty(obj, prop) {
   return Object.prototype.hasOwnProperty.call(obj, prop);
 }
-},{"./support/isBuffer":"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/assert/node_modules/util/support/isBufferBrowser.js","inherits":"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/assert/node_modules/inherits/inherits_browser.js","process":"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/process/browser.js"}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/assert/assert.js":[function(require,module,exports) {
+},{"./support/isBuffer":"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/assert/node_modules/util/support/isBufferBrowser.js","inherits":"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/assert/node_modules/inherits/inherits_browser.js","process":"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/assert/assert.js":[function(require,module,exports) {
 var global = arguments[3];
 'use strict';
 
@@ -1555,7 +1555,7 @@ var objectKeys = Object.keys || function (obj) {
   return keys;
 };
 
-},{"object-assign":"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/object-assign/index.js","util/":"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/assert/node_modules/util/util.js"}],"index.js":[function(require,module,exports) {
+},{"object-assign":"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/object-assign/index.js","util/":"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/assert/node_modules/util/util.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _assert = require("assert");
@@ -1570,7 +1570,7 @@ document.querySelector("#submit").addEventListener("click", function writeToChat
   discussionElt.innerHTML += '<p style="color:white;float:left;width=100%;">' + '<i style="color:grey">' + "at " + time + " | " + pseudo + " said :  " + "</i>" + message + "</p>";
   discussionElt.innerHTML += '<p style="color:white;float:right;width=100%;">' + '<i style="color:grey">' + "at " + time + " | " + "Chat_bot" + " said :  " + "</i>" + "This is an automatic response" + "</p>";
 });
-},{"assert":"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/node_modules/assert/assert.js"}],"../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"assert":"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/assert/assert.js"}],"../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -1598,7 +1598,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50294" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59858" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -1774,5 +1774,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
+},{}]},{},["../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
 //# sourceMappingURL=/Projectwebdev.e31bb0bc.js.map
