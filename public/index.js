@@ -1,4 +1,10 @@
 import { strict } from "assert";
+import axios from 'axios' 
+
+
+
+
+axios.get('/api/version');
 
 console.log("Hello World!");
 

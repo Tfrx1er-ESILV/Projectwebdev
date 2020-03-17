@@ -1,10 +1,15 @@
 {
-  "name": "Projectwebdev",
+  "name": "project-webdev",
   "version": "1.0.0",
   "description": "Projet de web dev sur notre projet Ping",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel public/index.html public/404.html",
+    "build": "parcel build public/index.html public/404.html",
+    "predeploy": "npm run build",
+    "deploy": "surge dist so-esilv-2047.surge.sh",
+    "serve": "node app.js",
+    "share": "ngrok http 3000"
   },
   "repository": {
     "type": "git",
@@ -18,6 +23,9 @@
   },
   "homepage": "https://github.com/Tfrx1er-ESILV/Projectwebdev#readme",
   "dependencies": {
-    "parcel-bundler": "^1.12.4"
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "parcel-bundler": "^1.12.4",
+    "surge": "^0.21.3"
   }
 }

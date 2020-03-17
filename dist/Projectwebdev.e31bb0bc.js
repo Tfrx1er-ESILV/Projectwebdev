@@ -1570,7 +1570,7 @@ document.querySelector("#submit").addEventListener("click", function writeToChat
   discussionElt.innerHTML += '<p style="color:white;float:left;width=100%;">' + '<i style="color:grey">' + "at " + time + " | " + pseudo + " said :  " + "</i>" + message + "</p>";
   discussionElt.innerHTML += '<p style="color:white;float:right;width=100%;">' + '<i style="color:grey">' + "at " + time + " | " + "Chat_bot" + " said :  " + "</i>" + "This is an automatic response" + "</p>";
 });
-},{"assert":"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/assert/assert.js"}],"../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"assert":"../../../usr/local/lib/node_modules/parcel-bundler/node_modules/assert/assert.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -1598,7 +1598,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59858" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61582" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -1774,5 +1774,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
 //# sourceMappingURL=/Projectwebdev.e31bb0bc.js.map
