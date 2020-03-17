@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "project-webdev",
   "version": "1.0.0",
   "description": "Projet de web dev sur notre projet Ping",
@@ -11,22 +10,6 @@
     "deploy": "surge dist so-esilv-2047.surge.sh",
     "serve": "node app.js",
     "share": "ngrok http 3000"
-=======
-  "name": "Projectwebdev",
-  "version": "1.0.0",
-  "description": "Projet de web dev sur notre projet Ping",
-  "main": "index.js",
-  "dependencies": {
-    "parcel-bundler": "^1.12.4",
-    "surge": "^0.21.3"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "predeploy": "npm run build",
-    "deploy": "surge dist monsisi.surge.sh"
->>>>>>> 45c21f10e26c8b2e2aec0f44a1d46d822d6c9a8f
   },
   "repository": {
     "type": "git",
@@ -38,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/Tfrx1er-ESILV/Projectwebdev/issues"
   },
-<<<<<<< HEAD
   "homepage": "https://github.com/Tfrx1er-ESILV/Projectwebdev#readme",
   "dependencies": {
     "axios": "^0.19.2",
@@ -46,7 +28,4 @@
     "parcel-bundler": "^1.12.4",
     "surge": "^0.21.3"
   }
-=======
-  "homepage": "https://github.com/Tfrx1er-ESILV/Projectwebdev#readme"
->>>>>>> 45c21f10e26c8b2e2aec0f44a1d46d822d6c9a8f
 }
