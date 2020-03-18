@@ -4,6 +4,7 @@
   "description": "Projet de web dev sur notre projet Ping",
   "main": "app.js",
   "scripts": {
+    "dev" : "nodemon server.js",
     "start": "parcel public/index.html public/404.html",
     "build": "parcel build public/index.html public/404.html",
     "predeploy": "npm run build",
