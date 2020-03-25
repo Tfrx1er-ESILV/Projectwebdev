@@ -11,4 +11,4 @@ app.use(function (req, res, next) {
     res.status(404).sendFile(path.resolve(__dirname,'../client/dist/404.html'));
   })
   
-app.listen(port, () => console.log(`Now go to http://localhost:${port}!`))
+app.listen(port, () => console.log(`Now go to http://localhost:${port}`))
