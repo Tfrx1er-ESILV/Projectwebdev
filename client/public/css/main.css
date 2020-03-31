@@ -63,7 +63,7 @@ body
 }
 .u-flex
 {
-    float: top;
+    text-align: top;
     display: flex;
     height: 20%;
 }
@@ -112,7 +112,7 @@ body
 }
 .lateral_chat
 {
-    float: left;
+    text-align: left;
     position: fixed;
     border: 1px solid #ccc;
     background-color: rgb(29, 28, 28);
@@ -121,7 +121,8 @@ body
 }
 .main
 {
-    float: right;
+    text-align: right;
+    margin-left: 16em;
     height: 90%;
     width: 79%;
 }
