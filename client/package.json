@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "dev" : "nodemon server.js",
-    "start": "parcel public/index.html public/404.html",
+    "start": "parcel public/index.html public/404.html public/Notre_Culture.html",
     "build": "parcel build public/index.html public/404.html",
     "predeploy": "npm run build",
     "deploy": "surge dist so-esilv-2047.surge.sh",
