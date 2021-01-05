@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Tfrx1er-ESILV/Projectwebdev#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "parcel-bundler": "^1.12.4",
     "surge": "^0.21.3"
